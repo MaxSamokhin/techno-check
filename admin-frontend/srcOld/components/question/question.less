@@ -1,0 +1,70 @@
+@import "../../assets/style/color";
+@import "../../assets/style/font";
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  overflow: auto;
+  max-height: 100vh;
+  padding: 5px 0;
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+    flex-flow: wrap;
+    max-width: 518px;
+    flex-grow: 1;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin-top: 10px;
+    width: 100%;
+
+    &-button {
+    }
+  }
+
+  &__header-input {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .question  {
+    max-width: 800px;
+    width: -webkit-fill-available;;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .question  {
+    &__buttons {
+      justify-content: center;
+    }
+  }
+}
+
+
+.question-header {
+
+    &__title-label {
+        font-size: @size-large;
+    }
+
+    &__select {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    & .react-mde .grip {
+        height: 20px;
+    }
+}

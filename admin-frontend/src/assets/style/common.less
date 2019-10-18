@@ -1,0 +1,30 @@
+@import "font.less";
+
+.html, body {
+  height: 100vh;
+  font: @size-medium @base-font-family;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+&._hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+&._base-info {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  margin: 5px;
+  box-shadow: 0 0 1px 1px #c5c5c5;
+}

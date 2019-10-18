@@ -1,0 +1,64 @@
+@import "../../assets/style/color.less";
+
+.category {
+  display: flex;
+  height: 100%;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 30px;
+  }
+
+  &__menu {
+    box-shadow: 1px -3px 3px 0 rgba(0, 0, 0, 0.14);
+    height: 100%;
+    min-width: 236px;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    margin-left: 30px;
+
+    &-row {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  &__breadcrumbs {
+    padding: 5px 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__score-field {
+    font-size: 24px;
+    margin-top: 20px;
+    max-width: 390px;
+    width: 100%;
+  }
+
+  &__table {
+    max-width: 1000px;
+    margin-top: 20px;
+
+    &-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__icon {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 999;
+  }
+}

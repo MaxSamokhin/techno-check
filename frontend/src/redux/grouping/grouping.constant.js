@@ -1,0 +1,2 @@
+export const GROUP_BY_QUESTION = 'GROUP_BY_QUESTION';
+export const GROUP_BY_USER = 'GROUP_BY_USER';

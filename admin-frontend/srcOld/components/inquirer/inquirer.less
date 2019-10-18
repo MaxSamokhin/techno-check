@@ -1,0 +1,122 @@
+@import "../../assets/style/color";
+
+.course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 0;
+    background-color: @color-background-course;
+    padding: 10px;
+    border-radius: 5px;
+
+    &__header-file {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    &__header-menu {
+        margin: 5px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__tests {
+        margin-left: 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    &__button {
+        margin: 5px;
+    }
+
+    &__save-button {
+    }
+
+    &__expand-button {
+        margin-left: 10px;
+        flex-grow: 10;
+    }
+
+    &__header {
+        &-menu {
+            display: flex;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    &__collapsible {
+        margin-top: 10px;  
+
+        &__contentOuter {
+            background-color: @collipsable-trigger;
+            border-radius: 0 0 5px 5px;    
+        }      
+        &__trigger {
+            display: block;
+            font-weight: 400;
+            text-decoration: none;
+            background-color: @collipsable-trigger;
+            color: white;
+            position: relative;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.3em;
+            border-radius: 5px;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:after {
+                content: 'V';
+                display: block;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                transition: transform 300ms;
+            }
+
+            &.is-disabled {
+                background-color: @collipsable-trigger-disabled;
+            }
+
+            &.is-open {
+                border-radius: 5px 5px 0 0;
+                &:after {
+                  transform: rotateZ(180deg);
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .course-header__delete-button {
+            visibility: visible;
+        }
+
+        .course-header__input._with-pen::after {
+            visibility: visible;
+        }
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .course  {
+        margin: 20px 10px 0 10px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .course  {
+        width: 310px;
+    }
+}

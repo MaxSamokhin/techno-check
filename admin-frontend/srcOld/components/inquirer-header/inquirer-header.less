@@ -1,0 +1,162 @@
+@import "../../assets/style/color";
+@import "../../assets/style/font";
+
+.course-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__right-block {
+		display: flex;
+	}
+
+	&__delete-button {
+		// visibility: hidden;
+		margin-left: 10px;
+		opacity: 1;
+		display: flex;
+		align-items: center;
+	}
+
+	&__title {
+		display: flex;
+		flex-grow: 1;
+	}
+
+	&__text {
+		font-size: 17px;
+		white-space: nowrap;
+		display: flex;
+	}
+
+	&__time {
+		display: flex;
+		align-items: center;
+		margin-left: 7px;
+	}
+
+	&__time-picker {
+		border: none;
+        background-color: #79a8c7;
+        color: white;
+        font-size: @size-large;
+        border-radius: 5px;
+
+        & > input {
+        	border: none;
+        }
+
+        & .rc-time-picker-panel-inner {
+        	border: none;
+        	background: none;
+        }
+
+        .DateRangePicker {
+        	border-radius: 5px;
+        }
+
+        & .rc-time-picker-input {
+	        border-radius: 5px;
+	        background-color: #79a8c7;
+	        font-size: @size-medium;
+	        color: white;
+	        padding: 5px 15px;
+	        outline: none;
+	        height: 22px;
+	        box-sizing: content-box;
+	        width: 40px;
+        }
+
+        & .rc-time-picker-panel-select-option-selected {
+        	color: black;
+	        font-size: @size-medium;
+        }
+
+        & .rc-time-picker-panel-select li {
+	        width: auto;
+        }
+
+        & li:hover {
+        	color: black;
+	        font-size: @size-medium;
+        }
+	}
+
+	&__input {
+		position: relative;
+		flex-grow: 1;
+
+		&._with-pen {
+			&::after {
+				visibility: hidden;
+				content: '\270E';
+				display: block;
+				position: absolute;
+				right: 15px;
+				opacity: 0.4;
+				font-size: 1.3em;
+				top: 4px;
+			}
+		}
+	}
+
+	// TODO: make this shit BEM
+	& .DateInput_input {
+		background: @input-background;
+		color: white;
+		// &:placeholder-shown {
+		// 	background: @input-empty;
+		// }
+
+		& .DateInput_1 {
+			border-radius: 50px;
+		}
+	}
+
+	& .DateRangePickerInput {
+		border: none;
+		background: @input-background;
+	}
+
+	& .DateRangePickerInput_arrow_svg {
+		fill: white;
+	}
+}
+
+
+@media screen and (max-width: 920px) {
+	.course-header  {
+
+		&__time {
+			flex-direction: column;
+		}
+
+		&__text {
+			margin-bottom: 5px;
+		}
+
+		&__delete-button {
+			visibility: visible;
+			margin-left: 27px;
+		}
+
+		&__input {
+			&._with-pen {
+				&::after {
+					visibility: visible;
+				}
+			}
+		}
+
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.course-header  {
+		flex-direction: column;
+
+		&__title {
+			margin-bottom: 14px;
+		}
+	}
+}

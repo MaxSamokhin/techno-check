@@ -1,0 +1,44 @@
+@import "../../assets/style/color.less";
+
+.users {
+  &__icon {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 999;
+  }
+
+  &__table {
+    width: 1000px;
+
+    &-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__dialog {
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      border-bottom: 1px solid @separator;
+      padding: 15px 30px;
+    }
+
+    &-content {
+      padding: 0;
+
+      &-item {
+        padding: 20px 40px;
+
+        &._one {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

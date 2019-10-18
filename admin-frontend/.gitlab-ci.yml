@@ -1,0 +1,25 @@
+variables:
+  KUBERNETES_ANNOTATION_PATCH: "{\"spec\":{\"template\":{\"metadata\":{\"annotations\":{\"build\":\"$CI_PIPELINE_ID\"}}}}}"
+  KUBECONFIG: '/home/nikolay/.kube/config'
+
+stages:
+  - publish
+  - deploy
+
+before_script:
+  - 'docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY'
+
+publish:
+  stage: publish
+  only:
+    - master
+  script:
+    - 'docker build -f docker/Dockerfile -t $CI_REGISTRY_IMAGE .'
+    - 'docker push $CI_REGISTRY_IMAGE'
+
+deploy:
+  stage: deploy
+  only:
+  - master
+  script:
+  - 'kubectl -n prod patch deployment admin-frontend -p $KUBERNETES_ANNOTATION_PATCH'

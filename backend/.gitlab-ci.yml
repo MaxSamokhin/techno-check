@@ -1,0 +1,58 @@
+variables:
+  DOCKER_COMPOSE: 'docker-compose -f docker-compose.test.yml -p backend$CI_PIPELINE_ID'
+  KUBERNETES_ANNOTATION_PATCH: "{\"spec\":{\"template\":{\"metadata\":{\"annotations\":{\"build\":\"$CI_PIPELINE_ID\"}}}}}"
+  KUBECONFIG: '/home/nikolay/.kube/config'
+
+stages:
+  - build
+  - lint
+  - test
+  - teardown
+# temporary removed while no kube exists
+#  - publish
+#  - deploy
+
+build:
+  stage: build
+  script:
+  - '$DOCKER_COMPOSE build'
+
+lint:
+  stage: lint
+  script:
+  - '$DOCKER_COMPOSE run --no-deps frontend flake8'
+  after_script:
+  - '$DOCKER_COMPOSE down'
+
+test:
+  stage: test
+  script:
+  - '$DOCKER_COMPOSE run frontend'
+  after_script:
+  - '$DOCKER_COMPOSE down'
+
+#publish:
+#  stage: publish
+#  only:
+#  - master
+#
+#  script:
+#  - 'docker login -u $CI_DEPLOY_USER -p $CI_DEPLOY_PASSWORD $CI_REGISTRY'
+#  - 'docker build -f docker/prod/frontend/Dockerfile -t $CI_REGISTRY_IMAGE/frontend .'
+#  - 'docker push $CI_REGISTRY_IMAGE/frontend'
+#  - 'docker build -f docker/prod/backend/Dockerfile -t $CI_REGISTRY_IMAGE/backend .'
+#  - 'docker push $CI_REGISTRY_IMAGE/backend'
+#
+#deploy:
+#  stage: deploy
+#  only:
+#  - master
+#
+#  script:
+#  - 'kubectl -n prod patch deployment backend-rest -p $KUBERNETES_ANNOTATION_PATCH'
+#  - 'kubectl -n prod patch deployment backend-celery -p $KUBERNETES_ANNOTATION_PATCH'
+
+teardown:
+  stage: teardown
+  script:
+    - '$DOCKER_COMPOSE down --rmi "all"'

@@ -1,0 +1,23 @@
+# login user
+POST /api/auth/login HTTP/1.1
+Host: {{ host }}
+Content-Type: application/json
+
+{
+  "email": "{{ adminEmail }}",
+  "password": "{{ adminPassword }}"
+}
+
+###
+# Check that user is logged
+GET /api/auth/me HTTP/1.1
+Host: {{ host }}
+Cookie: sessionid={{ cookie }};
+
+###
+# logout user
+POST /api/auth/logout HTTP/1.1
+Host: {{ host }}
+Cookie:  sessionid={{ cookie }};
+
+###

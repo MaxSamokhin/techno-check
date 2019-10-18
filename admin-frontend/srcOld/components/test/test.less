@@ -1,0 +1,84 @@
+@import "../../assets/style/color";
+
+.test {
+	margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+
+	&__cards {
+		display: flex;
+		flex-direction: row;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	&__button {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+        margin-left: 20px;
+	}
+
+	&__header {
+		&-menu {
+			margin-top: 10px;
+			display: flex;
+			flex-direction: row;
+		    justify-content: space-between;
+		}
+	}
+
+	&__collapsible {
+        margin: 10px 0;
+
+        &__contentOuter {
+            background-color: @collipsable-trigger;
+            background-color: #79a8c7;
+            border-radius: 0 0 5px 5px;    
+        }
+        
+        &__trigger {
+            display: block;
+            font-weight: 400;
+            text-decoration: none;
+            background-color: #79a8c7;
+            color: white;
+            position: relative;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.3em;
+            border-radius: 5px;
+
+            &:hover {
+                cursor: pointer;
+            }
+            
+            &:after {
+                content: 'V';
+                display: block;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                transition: transform 300ms;
+            }
+
+            &.is-open {
+                border-radius: 5px 5px 0 0;
+                &:after {
+                  transform: rotateZ(180deg);
+                }
+            }
+
+            &.is-disabled {
+                background-color: @collipsable-trigger-disabled;
+            }
+        }
+
+        &__contentInner {
+          display: flex;
+          flex-direction: row;
+          flex-flow: wrap;
+          justify-content: center;
+        }
+    }
+}

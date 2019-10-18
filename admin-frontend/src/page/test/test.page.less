@@ -1,0 +1,76 @@
+@import "../../assets/style/color.less";
+
+.test {
+  display: flex;
+  height: 100%;
+
+  &__container {
+    display: block;
+    width: 100%;
+    margin: 0 30px;
+  }
+
+  &__menu {
+    box-shadow: 1px -3px 3px 0 rgba(0, 0, 0, 0.14);
+    height: 100%;
+    min-width: 236px;
+  }
+
+  &__test {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+
+    &-title {
+      font-size: 24px;
+      margin: 20px 0;
+    }
+
+    &-field {
+        max-width: 300px;
+    }
+
+    &-row {
+      display: flex;
+      width: 100%;
+      align-items: center;
+
+      &-icon {
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+
+        &-wrapper {
+          position: relative;
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  &__breadcrumbs {
+    padding: 5px 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__table {
+    max-width: 1000px;
+    margin-top: 20px;
+
+    &-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__icon {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 999;
+  }
+}

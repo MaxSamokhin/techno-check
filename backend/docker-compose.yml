@@ -1,0 +1,76 @@
+version: '3.3'
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: ./docker/development/Dockerfile
+    volumes:
+    - .:/usr/src/app
+    - /mnt/docker/test-utility/tmp:/tmp
+    ports:
+    - "8080:8000"
+    environment:
+    - DJANGO_SETTINGS_MODULE=application.settings_prod
+    - DEBUG=True
+    - DB_NAME=test
+    - DB_USER=test
+    - DB_PASSWORD=test
+    - DB_HOST=database
+    - DB_PORT=5432
+    - EMAIL_HOST=devmail
+    - EMAIL_PORT=25
+    - HOST_URL=http://ltptest.local
+    - FROM_EMAIL=admin@local
+    depends_on:
+    - database
+    - redis
+    command: ./manage.py runserver 0.0.0.0:8000
+
+  backend:
+    build:
+      context: .
+      dockerfile: ./docker/development/Dockerfile
+    volumes:
+    - .:/usr/src/app
+    - /mnt/docker/test-utility/tmp:/tmp
+    environment:
+    - DJANGO_SETTINGS_MODULE=application.settings_prod
+    - DEBUG=True
+    - DB_NAME=test
+    - DB_USER=test
+    - DB_PASSWORD=test
+    - DB_HOST=database
+    - DB_PORT=5432
+    - EMAIL_HOST=devmail
+    - EMAIL_PORT=25
+    - HOST_URL=http://ltptest.local
+    - FROM_EMAIL=admin@local
+    - EMAIL_USE_SSL=False
+    depends_on:
+    - database
+    - redis
+    command: celery -A application worker -l info
+
+  redis:
+    image: redis:4.0.11
+    ports:
+    - "6379:6379"
+
+  devmail:
+    image: djfarrelly/maildev
+    ports:
+    - "1080:80"
+    - "1025:25"
+
+  database:
+    image: postgres:10.5
+    hostname: database
+    restart: always
+    ports:
+    - "9876:5432"
+    volumes:
+    - /mnt/docker/test-utility/postgresql:/var/lib/postgresql/data
+    environment:
+    - POSTGRES_USER=test
+    - POSTGRES_PASSWORD=test
+    - POSTGRES_DB=test

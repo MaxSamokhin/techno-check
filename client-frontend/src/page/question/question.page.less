@@ -1,0 +1,69 @@
+@import '../../assets/style/color';
+@import '../../assets/style/font';
+
+.question {
+    width: 100%;
+    // background-color: @midground-color;
+    color: #222034;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+
+    &__header-title {
+        margin: 5px;
+        align-self: flex-start;
+    }
+
+    &__inquirer-title {
+        font-size: @size-large;
+    }
+
+    &__test-title {
+        font-size: @size-medium;
+        color: gray;
+    }
+
+    &__title {
+        margin: 20px;
+        font-size: 1.5em;
+    }
+
+    &__content {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__button {
+        margin: 10px;
+        align-self: flex-end;
+    }
+
+    &__main {
+        flex-grow: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__progresses {
+    }
+
+    &__progress {
+        width: 100%;
+        margin: 10px 0;
+        text-align: right;
+    }
+
+    &__categories {
+        margin: 10px 0;
+    }
+
+    &__category {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,94 @@
+@import '../../assets/style/font';
+@import '../../assets/style/color';
+
+.button {
+  padding: 0 16px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  outline: none;
+  width: max-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+
+  &:disabled {
+    background: @color-button-disabled !important;
+  }
+
+  &__text {
+    text-decoration: none;
+    white-space: nowrap;
+    color: @color-button-text;
+  }
+
+  &._small {
+    height: 25px;
+    font-size: @size-x-small;
+  }
+
+  &._medium {
+    height: 40px;
+    font-size: @size-medium;
+  }
+
+  &._large {
+    height: 50px;
+    font-size: @size-x-large;
+  }
+
+  &._default {
+    background-color: @button-default;
+
+    &:hover {
+      background-color: @button-default-hover;
+    }
+  }
+
+  &._danger {
+    background-color: @button-danger;
+  }
+
+  &._success {
+    background-color: @button-default;
+
+    &:hover {
+      background-color: @button-default-hover;
+    }
+  }
+
+  &._startRecord {
+    border-radius: 5px 0 0 5px;
+    background-color: @button-success;
+
+    &:hover {
+      background-color: @button-success-hover;
+    }
+  }
+
+  &._stopRecord {
+    border-radius: 0 5px 5px 0;
+    background-color: @button-stop-record;
+
+    &:hover {
+      background-color: @button-stop-record-hover;
+    }
+  }
+
+  &._link > span, &._link {
+    padding: 0;
+    border-radius: 0;
+    color: @color-button-link;
+    background-color: white;
+
+    &:hover {
+     color: @color-button-link-hover;
+    }
+  }
+
+}

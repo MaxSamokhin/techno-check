@@ -1,0 +1,36 @@
+@import "font";
+
+.html, body {
+  height: 100vh;
+  font: @size-medium @base-font-family;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  //height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: max-content;
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+  //width: -webkit-fill-available;
+}
+
+&._hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}

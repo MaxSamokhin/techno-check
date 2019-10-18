@@ -1,0 +1,38 @@
+@import "../../assets/style/color.less";
+
+.input-file { 
+    &__input {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    &__label {
+        padding: 0 16px;
+        border-radius: 5px;
+        user-select: none;
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 30px;
+        color: white;
+        background-color: @input-file;
+        cursor: pointer;
+
+        &:hover {
+          background-color: @input-file-hover;
+        }
+
+        &__filled {
+            background-color: @input-file-filled;
+
+            &:hover {
+              background-color: @input-file-filled-hover;
+            }
+        }
+    }
+}

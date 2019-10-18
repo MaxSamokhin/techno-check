@@ -1,0 +1,57 @@
+# Get inquirers list
+GET /api/admin/testing/inquirer HTTP/1.1
+Host: {{ host }}
+Cookie: sessionid={{ cookie }};
+
+###
+# create inquirer
+POST /api/admin/testing/inquirer HTTP/1.1
+Host: {{ host }}
+Cookie: sessionid={{ cookie }};
+Content-Type: application/json
+
+{
+  "inquirerTitle": "Test1",
+  "inquirerStartDate": "2019-02-11T10:00:00",
+  "inquirerEndDate": "2019-02-12T23:00:00"
+}
+
+###
+# Get inquirere item
+GET /api/admin/testing/inquirer/1 HTTP/1.1
+Host: {{ host }}
+Cookie: sessionid={{ cookie }};
+
+###
+# Update inquirer
+POST /api/admin/testing/inquirer/1
+Host: {{ host }}
+Cookie: sessionid={{ cookie }};
+Content-Type: application/json
+
+{
+  "inquirerTitle": "Test1-updated",
+  "inquirerStartDate": "2019-02-11T10:00:00",
+  "inquirerEndDate": "2019-02-12T23:00:00"
+}
+
+###
+# Get inquirere users
+GET /api/admin/testing/inquirer/1/users HTTP/1.1
+Host: {{ host }}
+Cookie: sessionid={{ cookie }};
+
+###
+# Invite users from file
+POST /api/admin/testing/inquirer/1/users HTTP/1.1
+Host: {{ host }}
+Cookie: sessionid={{ cookie }};
+Content-Type: multipart/form-data; boundary=-------------573cf973d5228
+
+---------------573cf973d5228
+Content-Disposition: form-data; name="file"; filename="emails.csv"
+Content-Type: text/csv
+
+< inviteEmails.csv
+---------------573cf973d5228--
+###

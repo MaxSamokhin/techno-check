@@ -1,0 +1,10 @@
+@import "../../../assets/style/color";
+
+.table-body {
+    &__row {
+        background-color: @table-row-background-color-1;
+        &:nth-child(2n + 1) {
+            background-color: @table-row-background-color-2;
+        }
+    }
+}

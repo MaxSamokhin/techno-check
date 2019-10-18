@@ -1,0 +1,43 @@
+@import '../../assets/style/color';
+
+.input {
+    &__input {
+        border: none;
+        background-color: @collipsable-trigger;
+        color: white;
+        padding: 5px 15px;
+        outline: none;
+        height: 22px;
+        box-sizing: content-box;
+
+        &._transparent {
+            margin-right: 10px;
+            background: transparent;
+            border: transparent;
+            color: black;
+            font-size: 25px;
+            padding: 3px 3px;
+            width: 100%;
+            border-radius: 5px;
+
+            &::placeholder {
+                // color: @input-transparent-background-placeholder;
+                opacity: 1;
+            }
+
+            // &:placeholder-shown {
+            //     background: @input-empty;
+            // }
+
+            &:focus {
+                background: @input-transparent-background-focus;
+                border: transparent;
+
+                &::placeholder {
+                    color: @input-transparent-background-focus-placeholder;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

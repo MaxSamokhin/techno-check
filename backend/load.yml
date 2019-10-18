@@ -1,0 +1,11 @@
+phantom:
+  address: 127.0.0.1:8000
+  uris:
+  - /api/auth/me
+  load_profile:
+    load_type: rps
+    schedule: line(1, 100, 10s)
+console:
+  enabled: true
+telegraf:
+  enabled: false

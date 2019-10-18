@@ -1,0 +1,492 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/438fe93e/
+App	app.jsx	/^class App extends React.Component {$/;"	c
+CATEGORY	constant/routes-map.constant.js	/^export const CATEGORY = '\/admin\/category\/';$/;"	C
+CATEGORY_CLEAR_QUESTION_LIST	page/category/category.constant.js	/^export const CATEGORY_CLEAR_QUESTION_LIST = 'CATEGORY_CLEAR_QUESTION_LIST';$/;"	C
+CATEGORY_ERROR_SERVER	page/category/category.constant.js	/^export const CATEGORY_ERROR_SERVER = 'CATEGORY_ERROR_SERVER';$/;"	C
+CATEGORY_LOADING	page/category/category.constant.js	/^export const CATEGORY_LOADING = 'CATEGORY_LOADING';$/;"	C
+CATEGORY_REDIRECT_TO_TESTS	page/category/category.constant.js	/^export const CATEGORY_REDIRECT_TO_TESTS = 'CATEGORY_REDIRECT_TO_TESTS';$/;"	C
+CATEGORY_STOP_LOADING	page/category/category.constant.js	/^export const CATEGORY_STOP_LOADING = 'CATEGORY_STOP_LOADING';$/;"	C
+CATEGORY_SUCCESS	page/category/category.constant.js	/^export const CATEGORY_SUCCESS = 'CATEGORY_SUCCESS';$/;"	C
+CATEGORY_SUCCESS	page/test/test.constant.js	/^export const CATEGORY_SUCCESS = 'CATEGORY_SUCCESS';$/;"	C
+CategoryPage	page/category/category.page.jsx	/^class CategoryPage extends React.Component {$/;"	c
+Content-Type	service/http.js	/^                'Content-Type': 'application\/json',$/;"	p	class:fetchOptions.headers
+DELETE	constant/api.constant.js	/^export const DELETE = 'DELETE';$/;"	C
+GET	constant/api.constant.js	/^export const GET = 'GET';$/;"	C
+GET_QUESTION_STATISTIC	components/statistic/statistic.constant.js	/^export const GET_QUESTION_STATISTIC = 'GET_QUESTION_STATISTIC';$/;"	C
+HOME	constant/routes-map.constant.js	/^export const HOME = '\/admin';$/;"	C
+HOME_SELECTION_ERROR_SERVER	page/selection-home/selection-home.constant.js	/^export const HOME_SELECTION_ERROR_SERVER = 'HOME_SELECTION_ERROR_SERVER';$/;"	C
+HOME_SELECTION_LOADING	page/selection-home/selection-home.constant.js	/^export const HOME_SELECTION_LOADING = 'HOME_SELECTION_LOADING';$/;"	C
+HOME_SELECTION_STOP_LOADING	page/selection-home/selection-home.constant.js	/^export const HOME_SELECTION_STOP_LOADING = 'HOME_SELECTION_STOP_LOADING';$/;"	C
+HOME_SELECTION_SUCCESS	page/selection-home/selection-home.constant.js	/^export const HOME_SELECTION_SUCCESS = 'HOME_SELECTION_SUCCESS';$/;"	C
+HOME_TEST_ERROR_SERVER	page/test-home/test-home.constant.js	/^export const HOME_TEST_ERROR_SERVER = 'HOME_TEST_ERROR_SERVER';$/;"	C
+HOME_TEST_LOADING	page/test-home/test-home.constant.js	/^export const HOME_TEST_LOADING = 'HOME_TEST_LOADING';$/;"	C
+HOME_TEST_STOP_LOADING	page/test-home/test-home.constant.js	/^export const HOME_TEST_STOP_LOADING = 'HOME_TEST_STOP_LOADING';$/;"	C
+HOME_TEST_SUCCESS	page/test-home/test-home.constant.js	/^export const HOME_TEST_SUCCESS = 'HOME_TEST_SUCCESS';$/;"	C
+Header	components/header/header.jsx	/^class Header extends React.Component {$/;"	c
+Http	service/http.js	/^export default class Http {$/;"	c
+INQUIRER	constant/routes-map.constant.js	/^export const INQUIRER = '\/admin\/inquirer';$/;"	C
+IS_SELECTION_HOME_PAGE	components/route/route.constant.js	/^export const IS_SELECTION_HOME_PAGE = 'IS_SELECTION_HOME_PAGE';$/;"	C
+IS_TEST_HOME_PAGE	components/route/route.constant.js	/^export const IS_TEST_HOME_PAGE = 'IS_TEST_HOME_PAGE';$/;"	C
+LOGIN	constant/routes-map.constant.js	/^export const LOGIN = '\/admin\/';$/;"	C
+LOG_IN	constant/routes-map.constant.js	/^export const LOG_IN = '\/admin\/login\/';$/;"	C
+LOG_IN_LOADING	page/login/login.constant.js	/^export const LOG_IN_LOADING = 'LOG_IN_LOADING';$/;"	C
+LOG_IN_SET_ERROR	page/login/login.constant.js	/^export const LOG_IN_SET_ERROR = 'LOG_IN_SET_ERROR';$/;"	C
+LOG_IN_SET_NO_ACCESS	page/login/login.constant.js	/^export const LOG_IN_SET_NO_ACCESS = 'LOG_IN_SET_NO_ACCESS';$/;"	C
+LOG_IN_USER_SUCCESS	page/login/login.constant.js	/^export const LOG_IN_USER_SUCCESS = 'LOGIN_USER_SUCCESS';$/;"	C
+LOG_IS_NOT_AUTH	page/login/login.constant.js	/^export const LOG_IS_NOT_AUTH = 'LOG_IS_NOT_AUTH';$/;"	C
+LOG_OUT	page/login/login.constant.js	/^export const LOG_OUT = 'LOG_OUT';$/;"	C
+LoginPage	page/login/login.page.jsx	/^class LoginPage extends React.Component {$/;"	c
+MENU_CLEAR_MENU_DATA	components/menu/menu.constant.js	/^export const MENU_CLEAR_MENU_DATA = 'MENU_CLEAR_MENU_DATA';$/;"	C
+MENU_ERROR_SERVER	components/menu/menu.constant.js	/^export const MENU_ERROR_SERVER = 'MENU_ERROR_SERVER';$/;"	C
+MENU_ITEMS	components/header/header.constant.js	/^export const MENU_ITEMS = [$/;"	C
+MENU_LOADING	components/menu/menu.constant.js	/^export const MENU_LOADING = 'MENU_LOADING';$/;"	C
+MENU_SET_MENU_DATA_SUCCESS	components/menu/menu.constant.js	/^export const MENU_SET_MENU_DATA_SUCCESS = 'MENU_SET_MENU_DATA_SUCCESS';$/;"	C
+MENU_STOP_LOADING	components/menu/menu.constant.js	/^export const MENU_STOP_LOADING = 'MENU_STOP_LOADING';$/;"	C
+MenuTree	components/menu/menu.jsx	/^class MenuTree extends React.Component {$/;"	c
+NotFound	components/not-found/not-found.jsx	/^const NotFound = () => {$/;"	C
+POST	constant/api.constant.js	/^export const POST = 'POST';$/;"	C
+PrivateRoute	components/private-route/private-route.jsx	/^const PrivateRoute = ({component: Component, ...rest}) => {$/;"	c
+QUESTION	constant/routes-map.constant.js	/^export const QUESTION = '\/admin\/question';$/;"	C
+QUESTIONS_SUCCESS	page/category/category.constant.js	/^export const QUESTIONS_SUCCESS = 'QUESTIONS_SUCCESS';$/;"	C
+QUESTION_ANSWERS_SUCCESS	page/question/question.constant.js	/^export const QUESTION_ANSWERS_SUCCESS = 'QUESTION_ANSWERS_SUCCESS';$/;"	C
+QUESTION_DELETE_ANSWER	page/question/question.constant.js	/^export const QUESTION_DELETE_ANSWER = 'QUESTION_DELETE_ANSWER';$/;"	C
+QUESTION_ERROR_SERVER	page/question/question.constant.js	/^export const QUESTION_ERROR_SERVER = 'QUESTION_ERROR_SERVER';$/;"	C
+QUESTION_LOADING	page/question/question.constant.js	/^export const QUESTION_LOADING = 'QUESTION_LOADING';$/;"	C
+QUESTION_REDIRECT_TO_CATEGORY	page/question/question.constant.js	/^export const QUESTION_REDIRECT_TO_CATEGORY = 'QUESTION_REDIRECT_TO_CATEGORY';$/;"	C
+QUESTION_STOP_LOADING	page/question/question.constant.js	/^export const QUESTION_STOP_LOADING = 'QUESTION_STOP_LOADING';$/;"	C
+QUESTION_SUCCESS	page/question/question.constant.js	/^export const QUESTION_SUCCESS = 'QUESTION_SUCCESS';$/;"	C
+QuestionPage	page/question/question.page.jsx	/^class QuestionPage extends React.Component {$/;"	c
+RESULT	constant/routes-map.constant.js	/^export const RESULT = '\/admin\/result';$/;"	C
+RESULT_ERROR_SERVER	page/result/result.constant.js	/^export const RESULT_ERROR_SERVER = 'RESULT_STOP_LOADING_RESULT';$/;"	C
+RESULT_LOADING	page/result/result.constant.js	/^export const RESULT_LOADING = 'RESULT_LOADING';$/;"	C
+RESULT_STOP_LOADING_RESULT	page/result/result.constant.js	/^export const RESULT_STOP_LOADING_RESULT = 'RESULT_STOP_LOADING_RESULT';$/;"	C
+RESULT_SUCCESS	page/result/result.constant.js	/^export const RESULT_SUCCESS = 'RESULT_SUCCESS';$/;"	C
+REVIEW_ERROR_SERVER	page/review/review.constant.js	/^export const REVIEW_ERROR_SERVER = 'REVIEW_ERROR_SERVER';$/;"	C
+REVIEW_HOME_LOADING_REVIEW	page/review-home/review-home.constant.js	/^export const REVIEW_HOME_LOADING_REVIEW = 'REVIEW_HOME_LOADING_REVIEW';$/;"	C
+REVIEW_HOME_STOP_LOADING	page/review-home/review-home.constant.js	/^export const REVIEW_HOME_STOP_LOADING = 'REVIEW_HOME_STOP_LOADING';$/;"	C
+REVIEW_HOME_SUCCESS	page/review-home/review-home.constant.js	/^export const REVIEW_HOME_SUCCESS = 'REVIEW_HOME_SUCCESS';$/;"	C
+REVIEW_LOADING_REVIEW	page/review/review.constant.js	/^export const REVIEW_LOADING_REVIEW = 'REVIEW_LOADING_REVIEW';$/;"	C
+REVIEW_STOP_LOADING_REVIEW	page/review/review.constant.js	/^export const REVIEW_STOP_LOADING_REVIEW = 'REVIEW_STOP_LOADING_REVIEW';$/;"	C
+REVIEW_SUCCESS_LIST	page/review/review.constant.js	/^export const REVIEW_SUCCESS_LIST = 'REVIEW_SUCCESS_LIST';$/;"	C
+ResultHomePage	page/result-home/result-home.page.jsx	/^class ResultHomePage extends React.Component {$/;"	c
+ResultPage	page/result/result.page.jsx	/^class ResultPage extends React.Component {$/;"	c
+ReviewCard	components/review-card/review-card.jsx	/^export default class ReviewCard extends React.Component {$/;"	c
+ReviewHomePage	page/review-home/review-home.page.jsx	/^class ReviewHomePage extends React.Component {$/;"	c
+ReviewPage	page/review/review.page.jsx	/^class ReviewPage extends React.Component {$/;"	c
+SELECTION	constant/routes-map.constant.js	/^export const SELECTION = '\/admin\/selection';$/;"	C
+SELECTION_CLEAR_TESTS	page/selection/selection.constant.js	/^export const SELECTION_CLEAR_TESTS = 'SELECTION_CLEAR_TESTS';$/;"	C
+SELECTION_ERROR_SERVER	page/selection/selection.constant.js	/^export const SELECTION_ERROR_SERVER = 'SELECTION_ERROR_SERVER';$/;"	C
+SELECTION_HOME	constant/routes-map.constant.js	/^export const SELECTION_HOME = '\/admin';$/;"	C
+SELECTION_LOADING	page/selection/selection.constant.js	/^export const SELECTION_LOADING = 'SELECTION_LOADING';$/;"	C
+SELECTION_REDIRECT_TO_HOME	page/selection/selection.constant.js	/^export const SELECTION_REDIRECT_TO_HOME = 'SELECTION_REDIRECT_TO_HOME';$/;"	C
+SELECTION_SET_ALL_TEST_SUCCESS	page/selection/selection.constant.js	/^export const SELECTION_SET_ALL_TEST_SUCCESS = 'SELECTION_SET_ALL_TEST_SUCCESS';$/;"	C
+SELECTION_SET_ERROR	page/selection/selection.constant.js	/^export const SELECTION_SET_ERROR = 'SELECTION_SET_ERROR';$/;"	C
+SELECTION_SET_MENU_DATA_SUCCESS	page/selection/selection.constant.js	/^export const SELECTION_SET_MENU_DATA_SUCCESS = 'SELECTION_SET_MENU_DATA_SUCCESS';$/;"	C
+SELECTION_SET_TEST_SUCCESS	page/selection/selection.constant.js	/^export const SELECTION_SET_TEST_SUCCESS = 'SELECTION_SET_TEST_SUCCESS';$/;"	C
+SELECTION_STOP_LOADING	page/selection/selection.constant.js	/^export const SELECTION_STOP_LOADING = 'SELECTION_STOP_LOADING';$/;"	C
+SELECTION_SUCCESS	page/selection/selection.constant.js	/^export const SELECTION_SUCCESS = 'SELECTION_SUCCESS';$/;"	C
+SelectionHomePage	page/selection-home/selection-home.page.jsx	/^class SelectionHomePage extends React.Component {$/;"	c
+SelectionPage	page/selection/selection.page.jsx	/^class SelectionPage extends React.Component {$/;"	c
+TEST	constant/routes-map.constant.js	/^export const TEST = '\/admin\/test';$/;"	C
+TEST_CLEAR_LIST_CATEGORIES	page/test/test.constant.js	/^export const TEST_CLEAR_LIST_CATEGORIES = 'TEST_CLEAR_LIST_CATEGORIES';$/;"	C
+TEST_ERROR_SERVER	page/test/test.constant.js	/^export const TEST_ERROR_SERVER = 'TEST_ERROR_SERVER';$/;"	C
+TEST_HOME	constant/routes-map.constant.js	/^export const TEST_HOME = '\/admin\/tests';$/;"	C
+TEST_LOADING	page/test/test.constant.js	/^export const TEST_LOADING = 'TEST_LOADING';$/;"	C
+TEST_STOP_LOADING	page/test/test.constant.js	/^export const TEST_STOP_LOADING = 'TEST_STOP_LOADING';$/;"	C
+TEST_SUCCESS	page/test/test.constant.js	/^export const TEST_SUCCESS = 'TEST_SUCCESS';$/;"	C
+TestHomePage	page/test-home/test-home.page.jsx	/^class TestHomePage extends React.Component {$/;"	c
+TestPage	page/test/test.page.jsx	/^class TestPage extends React.Component {$/;"	c
+USERS	constant/routes-map.constant.js	/^export const USERS = '\/admin\/users\/';$/;"	C
+USERS_ERROR_SERVER	page/users/users.constant.js	/^export const USERS_ERROR_SERVER = 'USERS_ERROR_SERVER';$/;"	C
+USERS_LOADING	page/users/users.constant.js	/^export const USERS_LOADING = 'USERS_LOADING';$/;"	C
+USERS_SUCCESS	page/users/users.constant.js	/^export const USERS_SUCCESS = 'USERS_SUCCESS';$/;"	C
+USER_STOP_LOADING	page/users/users.constant.js	/^export const USER_STOP_LOADING = 'USER_STOP_LOADING';$/;"	C
+UsersPage	page/users/users.page.jsx	/^class UsersPage extends React.Component {$/;"	c
+VIDEO	constant/routes-map.constant.js	/^export const VIDEO = '\/admin\/review';$/;"	C
+allTest	page/selection/selection.page.jsx	/^            allTest: [],$/;"	p	class:SelectionPage.constructor.state
+allTest	page/selection/selection.reducer.js	/^    allTest: null,$/;"	p	class:initialState
+anchorEl	page/selection/selection.page.jsx	/^            anchorEl: null,$/;"	p	class:SelectionPage.constructor.state
+answerShowLength	components/review-card/review-card.jsx	/^const answerShowLength = 35;$/;"	C
+answersSuccess	page/question/question.action.js	/^export const answersSuccess = (answers) => ({$/;"	C
+categoriesList	page/test/test.page.jsx	/^            categoriesList: null,$/;"	p	class:TestPage.constructor.state
+categoriesList	page/test/test.reducer.js	/^    categoriesList: [],$/;"	p	class:initialState
+categoriesSuccess	page/test/test.action.js	/^export const categoriesSuccess = (category) => ({$/;"	C
+category	page/category/category.reducer.js	/^    category: {},$/;"	p	class:initialState
+category	page/category/category.reducer.js	/^export default function category(state = initialState, action) {$/;"	f
+categoryClearQuestions	page/category/category.action.js	/^export const categoryClearQuestions = () => ({$/;"	C
+categoryId	page/category/category.page.jsx	/^            categoryId: 0,$/;"	p	class:CategoryPage.constructor.state
+categoryLoading	page/category/category.action.js	/^export const categoryLoading = () => ({$/;"	C
+categoryRedirectToTests	page/category/category.action.js	/^export const categoryRedirectToTests = () => ({$/;"	C
+categoryScore	page/category/category.page.jsx	/^            categoryScore: 0,$/;"	p	class:CategoryPage.constructor.state
+categorySetError	page/category/category.action.js	/^export const categorySetError = (err) => ({$/;"	C
+categorySuccess	page/category/category.action.js	/^export const categorySuccess = (category) => ({$/;"	C
+categoryTitle	page/category/category.page.jsx	/^            categoryTitle: '',$/;"	p	class:CategoryPage.constructor.state
+changeTest	page/test/test.action.js	/^export function changeTest(testId, test) {$/;"	f
+checkUser	page/login/login.action.js	/^export function checkUser() {$/;"	f
+clearMenuData	components/menu/menu.action.js	/^export function clearMenuData() {$/;"	f
+clearTestsForSelection	page/selection/selection.action.js	/^export function clearTestsForSelection() {$/;"	f
+component	components/private-route/private-route.jsx	/^const PrivateRoute = ({component: Component, ...rest}) => {$/;"	p	class:PrivateRoute
+componentDidMount	components/menu/menu.jsx	/^    componentDidMount() {$/;"	m	class:MenuTree
+componentDidMount	page/category/category.page.jsx	/^    componentDidMount() {$/;"	m	class:CategoryPage
+componentDidMount	page/login/login.page.jsx	/^    componentDidMount() {$/;"	m	class:LoginPage
+componentDidMount	page/question/question.page.jsx	/^    componentDidMount() {$/;"	m	class:QuestionPage
+componentDidMount	page/result-home/result-home.page.jsx	/^    componentDidMount() {$/;"	m	class:ResultHomePage
+componentDidMount	page/result/result.page.jsx	/^    componentDidMount() {$/;"	m	class:ResultPage
+componentDidMount	page/review-home/review-home.page.jsx	/^    componentDidMount() {$/;"	m	class:ReviewHomePage
+componentDidMount	page/review/review.page.jsx	/^    componentDidMount() {$/;"	m	class:ReviewPage
+componentDidMount	page/selection-home/selection-home.page.jsx	/^    componentDidMount() {$/;"	m	class:SelectionHomePage
+componentDidMount	page/selection/selection.page.jsx	/^    componentDidMount() {$/;"	m	class:SelectionPage
+componentDidMount	page/test-home/test-home.page.jsx	/^    componentDidMount() {$/;"	m	class:TestHomePage
+componentDidMount	page/test/test.page.jsx	/^    componentDidMount() {$/;"	m	class:TestPage
+componentDidMount	page/users/users.page.jsx	/^    componentDidMount() {$/;"	m	class:UsersPage
+componentDidUpdate	components/menu/menu.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:MenuTree
+componentDidUpdate	page/category/category.page.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:CategoryPage
+componentDidUpdate	page/question/question.page.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:QuestionPage
+componentDidUpdate	page/result/result.page.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:ResultPage
+componentDidUpdate	page/review-home/review-home.page.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:ReviewHomePage
+componentDidUpdate	page/review/review.page.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:ReviewPage
+componentDidUpdate	page/selection/selection.page.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:SelectionPage
+componentDidUpdate	page/test/test.page.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:TestPage
+componentDidUpdate	page/users/users.page.jsx	/^    componentDidUpdate(prevProps) {$/;"	m	class:UsersPage
+composeEnhancers	store.js	/^const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;$/;"	C
+constructor	app.jsx	/^    constructor(props) {$/;"	m	class:App
+constructor	components/menu/menu.jsx	/^    constructor(props) {$/;"	m	class:MenuTree
+constructor	components/review-card/review-card.jsx	/^    constructor(props) {$/;"	m	class:ReviewCard
+constructor	page/category/category.page.jsx	/^    constructor(props) {$/;"	m	class:CategoryPage
+constructor	page/login/login.page.jsx	/^    constructor(props) {$/;"	m	class:LoginPage
+constructor	page/question/question.page.jsx	/^    constructor(props) {$/;"	m	class:QuestionPage
+constructor	page/result-home/result-home.page.jsx	/^    constructor(props) {$/;"	m	class:ResultHomePage
+constructor	page/result/result.page.jsx	/^    constructor(props) {$/;"	m	class:ResultPage
+constructor	page/review-home/review-home.page.jsx	/^    constructor(props) {$/;"	m	class:ReviewHomePage
+constructor	page/review/review.page.jsx	/^    constructor(props) {$/;"	m	class:ReviewPage
+constructor	page/selection-home/selection-home.page.jsx	/^    constructor(props) {$/;"	m	class:SelectionHomePage
+constructor	page/selection/selection.page.jsx	/^    constructor(props) {$/;"	m	class:SelectionPage
+constructor	page/test-home/test-home.page.jsx	/^    constructor(props) {$/;"	m	class:TestHomePage
+constructor	page/test/test.page.jsx	/^    constructor(props) {$/;"	m	class:TestPage
+constructor	page/users/users.page.jsx	/^    constructor(props) {$/;"	m	class:UsersPage
+createNewCategory	page/category/category.action.js	/^export function createNewCategory(testId, category) {$/;"	f
+createNewSelection	page/selection/selection.action.js	/^export function createNewSelection(selection) {$/;"	f
+createNewTest	page/test/test.action.js	/^export function createNewTest(selectionId, test) {$/;"	f
+createOneTest	page/test/test.action.js	/^export function createOneTest(test) {$/;"	f
+createQuestion	page/question/question.action.js	/^export function createQuestion(categoryId, question) {$/;"	f
+credentials	service/http.js	/^            credentials: 'include',$/;"	p	class:fetchOptions
+dd	service/get-date.js	/^    let dd = date.getDate();$/;"	v
+deleteAnswer	page/question/question.action.js	/^export function deleteAnswer(answerId, answers) {$/;"	f
+deleteCategory	page/category/category.action.js	/^export function deleteCategory(categoryId) {$/;"	f
+deleteQuestion	page/question/question.action.js	/^export function deleteQuestion(questionId) {$/;"	f
+deleteSelection	page/selection/selection.action.js	/^export function deleteSelection(selectionId) {$/;"	f
+deleteTest	page/test/test.action.js	/^export function deleteTest(testId) {$/;"	f
+email	page/login/login.page.jsx	/^            email: '',$/;"	p	class:LoginPage.constructor.state
+email	page/login/login.reducer.js	/^    email: null,$/;"	p	class:initialState
+email	page/users/users.page.jsx	/^            email: '',$/;"	p	class:UsersPage.constructor.state
+errorCategoryMsg	page/category/category.reducer.js	/^    errorCategoryMsg: null,$/;"	p	class:initialState
+errorMsgMenu	components/menu/menu.reducer.js	/^    errorMsgMenu: null,$/;"	p	class:initialState
+errorMsgQuestion	page/question/question.reducer.js	/^    errorMsgQuestion: null,$/;"	p	class:initialState
+errorMsgResult	page/result/result.reducer.js	/^    errorMsgResult: null,$/;"	p	class:initialState
+errorMsgReview	page/review-home/review-home.reducer.js	/^    errorMsgReview: null,$/;"	p	class:initialState
+errorMsgReview	page/review/review.reducer.js	/^    errorMsgReview: null,$/;"	p	class:initialState
+errorMsgSelection	page/selection/selection.reducer.js	/^    errorMsgSelection: null,$/;"	p	class:initialState
+errorMsgSelectionHome	page/selection-home/selection-home.reducer.js	/^    errorMsgSelectionHome: null,$/;"	p	class:initialState
+errorMsgTest	page/test/test.reducer.js	/^    errorMsgTest: null$/;"	p	class:initialState
+errorMsgTestHome	page/test-home/test-home.reducer.js	/^    errorMsgTestHome: null,$/;"	p	class:initialState
+errorMsgUsers	page/users/users.reducer.js	/^    errorMsgUsers: null$/;"	p	class:initialState
+fetchOptions	service/http.js	/^        const fetchOptions = {$/;"	c
+files	page/users/users.page.jsx	/^            files: [],$/;"	p	class:UsersPage.constructor.state
+formatDate	service/get-date.js	/^export const formatDate = date => {$/;"	C
+fromSelectionHomePage	components/route/route.reducer.js	/^    fromSelectionHomePage: true$/;"	p	class:initialState
+fromSelectionPage	components/route/route.action.js	/^export function fromSelectionPage() {$/;"	f
+fromSelectionPageAction	components/route/route.action.js	/^const fromSelectionPageAction = () => ({$/;"	C
+fromTestHomePage	components/route/route.reducer.js	/^    fromTestHomePage: false,$/;"	p	class:initialState
+fromTestHomePage	page/category/category.page.jsx	/^            fromTestHomePage: false,$/;"	p	class:CategoryPage.constructor.state
+fromTestHomePage	page/question/question.page.jsx	/^            fromTestHomePage: false,$/;"	p	class:QuestionPage.constructor.state
+fromTestHomePage	page/test/test.page.jsx	/^            fromTestHomePage: false,$/;"	p	class:TestPage.constructor.state
+fromTestPage	components/route/route.action.js	/^export function fromTestPage() {$/;"	f
+fromTestPageAction	components/route/route.action.js	/^const fromTestPageAction = () => ({$/;"	C
+generateId	service/generate-id.js	/^export const generateId = () => {$/;"	C
+getAllTest	page/selection/selection.action.js	/^export function getAllTest() {$/;"	f
+getAnswers	page/question/question.action.js	/^export function getAnswers(questionId) {$/;"	f
+getCategoriesForTest	page/test/test.action.js	/^export function getCategoriesForTest(testId) {$/;"	f
+getCategoryInfo	page/category/category.action.js	/^export function getCategoryInfo(categoryId) {$/;"	f
+getMenuData	components/menu/menu.action.js	/^export function getMenuData(selectionId) {$/;"	f
+getMenuData	page/selection/selection.action.js	/^export function getMenuData(selectionId) {$/;"	f
+getQuestionForCategory	page/category/category.action.js	/^export function getQuestionForCategory(categoryId) {$/;"	f
+getQuestionForMenuData	components/menu/menu.action.js	/^export function getQuestionForMenuData(selectionId, testId, categoryId, menuData) {$/;"	f
+getQuestionForMenuData	page/selection/selection.action.js	/^export function getQuestionForMenuData(selectionId, testId, categoryId, menuData) {$/;"	f
+getQuestionInfo	page/question/question.action.js	/^export function getQuestionInfo(questionId) {$/;"	f
+getQuestionStatistic	components/statistic/statistic.action.js	/^export function getQuestionStatistic(questionId) {$/;"	f
+getQuestionStatisticAction	components/statistic/statistic.action.js	/^const getQuestionStatisticAction = (statistic) => ({$/;"	C
+getResultBySelection	page/result/result.action.js	/^export function getResultBySelection(selectionId) {$/;"	f
+getReviewListBySelection	page/review/review.action.js	/^export function getReviewListBySelection(selectionId) {$/;"	f
+getReviewSelection	page/review-home/review-home.action.js	/^export function getReviewSelection() {$/;"	f
+getSelectionHome	page/selection-home/selection-home.action.js	/^export function getSelectionHome() {$/;"	f
+getSelectionInfo	page/selection/selection.action.js	/^export function getSelectionInfo(selectionId) {$/;"	f
+getString	service/get-string.js	/^export const getString = elem => elem + '';$/;"	C
+getTestHome	page/test-home/test-home.action.js	/^export function getTestHome() {$/;"	f
+getTestInfo	page/test/test.action.js	/^export function getTestInfo(testId) {$/;"	f
+getTestsForSelection	page/selection/selection.action.js	/^export function getTestsForSelection(selectionId) {$/;"	f
+getUserInfo	page/login/login.action.js	/^function getUserInfo(dispatch) {$/;"	f
+getUserList	page/users/users.action.js	/^export function getUserList(selectionId) {$/;"	f
+handleError	service/handleError.js	/^export default function handleError(error) {$/;"	f
+headers	service/http.js	/^            headers: {$/;"	c	class:fetchOptions
+index	page/review/review.page.jsx	/^        let index = listForReview.findIndex((elem) => userQuestionId === elem.userQuestionId);$/;"	v
+index	page/review/review.page.jsx	/^        let index = listForReview.findIndex(elem => elem.userQuestionId === userQuestionId);$/;"	v
+initialState	components/menu/menu.reducer.js	/^const initialState = {$/;"	c
+initialState	components/route/route.reducer.js	/^const initialState = {$/;"	c
+initialState	components/statistic/statistic.reducer.js	/^const initialState = {$/;"	c
+initialState	page/category/category.reducer.js	/^const initialState = {$/;"	c
+initialState	page/login/login.reducer.js	/^const initialState = {$/;"	c
+initialState	page/question/question.reducer.js	/^const initialState = {$/;"	c
+initialState	page/result/result.reducer.js	/^const initialState = {$/;"	c
+initialState	page/review-home/review-home.reducer.js	/^const initialState = {$/;"	c
+initialState	page/review/review.reducer.js	/^const initialState = {$/;"	c
+initialState	page/selection-home/selection-home.reducer.js	/^const initialState = {$/;"	c
+initialState	page/selection/selection.reducer.js	/^const initialState = {$/;"	c
+initialState	page/test-home/test-home.reducer.js	/^const initialState = {$/;"	c
+initialState	page/test/test.reducer.js	/^const initialState = {$/;"	c
+initialState	page/users/users.reducer.js	/^const initialState = {$/;"	c
+isAuth	page/login/login.reducer.js	/^    isAuth: false,$/;"	p	class:initialState
+isEmptyArray	service/isEmptyArray.js	/^export const isEmptyArray = (arr) => {$/;"	C
+isInteger	service/validator.js	/^const isInteger = (num) => {$/;"	C
+isLoading	page/login/login.reducer.js	/^    isLoading: false,$/;"	p	class:initialState
+isLoadingAllSelectionTest	page/selection/selection.reducer.js	/^    isLoadingAllSelectionTest: false,$/;"	p	class:initialState
+isLoadingAnswers	page/question/question.reducer.js	/^    isLoadingAnswers: false,$/;"	p	class:initialState
+isLoadingCategories	page/test/test.reducer.js	/^    isLoadingCategories: false,$/;"	p	class:initialState
+isLoadingCategory	page/category/category.reducer.js	/^    isLoadingCategory: false,$/;"	p	class:initialState
+isLoadingMenu	components/menu/menu.reducer.js	/^    isLoadingMenu: false,$/;"	p	class:initialState
+isLoadingQuestion	page/question/question.reducer.js	/^    isLoadingQuestion: false,$/;"	p	class:initialState
+isLoadingQuestions	page/category/category.reducer.js	/^    isLoadingQuestions: false,$/;"	p	class:initialState
+isLoadingResult	page/result/result.reducer.js	/^    isLoadingResult: false,$/;"	p	class:initialState
+isLoadingReview	page/review-home/review-home.reducer.js	/^    isLoadingReview: false,$/;"	p	class:initialState
+isLoadingReview	page/review/review.reducer.js	/^    isLoadingReview: false,$/;"	p	class:initialState
+isLoadingSelection	page/selection/selection.reducer.js	/^    isLoadingSelection: false,$/;"	p	class:initialState
+isLoadingSelectionHome	page/selection-home/selection-home.reducer.js	/^    isLoadingSelectionHome: false,$/;"	p	class:initialState
+isLoadingSelectionTest	page/selection/selection.reducer.js	/^    isLoadingSelectionTest: false,$/;"	p	class:initialState
+isLoadingTest	page/test/test.reducer.js	/^    isLoadingTest: false,$/;"	p	class:initialState
+isLoadingTestHome	page/test-home/test-home.reducer.js	/^    isLoadingTestHome: false,$/;"	p	class:initialState
+isLoadingUsers	page/users/users.reducer.js	/^    isLoadingUsers: false,$/;"	p	class:initialState
+isNotError	service/validator.js	/^    let isNotError = true;$/;"	v
+isPageCreateCategory	page/category/category.page.jsx	/^            isPageCreateCategory: false,$/;"	p	class:CategoryPage.constructor.state
+isPageCreateQuestion	page/question/question.page.jsx	/^            isPageCreateQuestion: false,$/;"	p	class:QuestionPage.constructor.state
+isPageCreateSelection	page/selection/selection.page.jsx	/^            isPageCreateSelection: false,$/;"	p	class:SelectionPage.constructor.state
+isPageCreateTest	page/test/test.page.jsx	/^            isPageCreateTest: false,$/;"	p	class:TestPage.constructor.state
+isString	service/is-string.js	/^export const isString = value => {$/;"	C
+isSuperuser	page/login/login.reducer.js	/^    isSuperuser: false,$/;"	p	class:initialState
+isValidAnswerItem	service/validator.js	/^export const isValidAnswerItem = (answers) => {$/;"	C
+isValidCategory	service/validator.js	/^export const isValidCategory = (categoryTitle) => {$/;"	C
+isValidQuestion	service/validator.js	/^export const isValidQuestion = (questionTitle, questionType) => {$/;"	C
+isValidScore	service/validator.js	/^export const isValidScore = (answers) => {$/;"	C
+isValidStartAndEndDate	service/validator.js	/^export const isValidStartAndEndDate = (startTime, endTime) => {$/;"	C
+isValidTest	service/validator.js	/^export const isValidTest = (testTitle, testLimit) => {$/;"	C
+listForReview	page/review/review.page.jsx	/^            listForReview: null$/;"	p	class:ReviewPage.constructor.state
+listForReview	page/review/review.reducer.js	/^    listForReview: [],$/;"	p	class:initialState
+listForReviewHome	page/review-home/review-home.page.jsx	/^            listForReviewHome: null$/;"	p	class:ReviewHomePage.constructor.state
+listForReviewHome	page/review-home/review-home.reducer.js	/^    listForReviewHome: [],$/;"	p	class:initialState
+loadOneUser	page/users/users.action.js	/^export function loadOneUser(selectionId, user) {$/;"	f
+loadUserFromFile	page/users/users.action.js	/^export function loadUserFromFile(selectionId, file) {$/;"	f
+logIn	page/login/login.action.js	/^export function logIn({email, password}) {$/;"	f
+logOut	page/login/login.action.js	/^export function logOut() {$/;"	f
+logger	store.js	/^const logger = createLogger();$/;"	C
+login	page/login/login.reducer.js	/^export default function login(state = initialState, action) {$/;"	f
+loginErrorMsg	page/login/login.reducer.js	/^    loginErrorMsg: null,$/;"	p	class:initialState
+loginSetInfoUser	page/login/login.action.js	/^const loginSetInfoUser = (res) => ({$/;"	C
+logout	page/login/login.action.js	/^const logout = () => ({$/;"	C
+mapDispatchToProps	components/header/header.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	components/menu/menu.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	components/private-route/private-route.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/category/category.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/login/login.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/result-home/result-home.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/review-home/review-home.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/review/review.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/selection-home/selection-home.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/selection/selection.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/test-home/test-home.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapDispatchToProps	page/test/test.page.jsx	/^const mapDispatchToProps = (dispatch) => ({$/;"	C
+mapStateToProps	app.jsx	/^const mapStateToProps = state => {$/;"	C
+mapStateToProps	components/header/header.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	components/menu/menu.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	components/private-route/private-route.jsx	/^const mapStateToProps = state => {$/;"	C
+mapStateToProps	page/category/category.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/question/question.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/result-home/result-home.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/result/result.page.jsx	/^function mapStateToProps(state) {$/;"	m	class:ResultPage
+mapStateToProps	page/review-home/review-home.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/review/review.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/selection-home/selection-home.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/selection/selection.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/test-home/test-home.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/test/test.page.jsx	/^function mapStateToProps(state) {$/;"	f
+mapStateToProps	page/users/users.page.jsx	/^function mapStateToProps(state) {$/;"	f	function:UsersPage.render
+menu	components/menu/menu.reducer.js	/^export default function menu(state = initialState, action) {$/;"	f
+menuClearData	components/menu/menu.action.js	/^const menuClearData = () => ({$/;"	C
+menuData	components/menu/menu.jsx	/^            menuData: []$/;"	p	class:MenuTree.constructor.state
+menuData	components/menu/menu.reducer.js	/^    menuData: null,$/;"	p	class:initialState
+menuLoading	components/menu/menu.action.js	/^const menuLoading = () => ({$/;"	C
+menuSetError	components/menu/menu.action.js	/^const menuSetError = (err) => ({$/;"	C
+menuSetMenuDataSuccess	components/menu/menu.action.js	/^const menuSetMenuDataSuccess = (menuData) => ({$/;"	C
+menuStopLoading	components/menu/menu.action.js	/^const menuStopLoading = () => ({$/;"	C
+method	service/http.js	/^            method: method,$/;"	p	class:fetchOptions
+mm	service/get-date.js	/^    let mm = date.getMonth() + 1;$/;"	v
+mode	service/http.js	/^            mode: 'cors',$/;"	p	class:fetchOptions
+name	page/users/users.page.jsx	/^            name: ''$/;"	p	class:UsersPage.constructor.state
+newListForReview	page/review/review.page.jsx	/^        let newListForReview = [...listForReview];$/;"	v
+newListForReview	page/review/review.page.jsx	/^        let newListForReview = listForReview;$/;"	v
+openCloseDeleteDialog	page/category/category.page.jsx	/^            openCloseDeleteDialog: false,$/;"	p	class:CategoryPage.constructor.state
+openCloseDeleteDialog	page/question/question.page.jsx	/^            openCloseDeleteDialog: false$/;"	p	class:QuestionPage.constructor.state
+openCloseDeleteDialog	page/selection/selection.page.jsx	/^            openCloseDeleteDialog: false$/;"	p	class:SelectionPage.constructor.state
+openCloseDeleteDialog	page/test/test.page.jsx	/^            openCloseDeleteDialog: false,$/;"	p	class:TestPage.constructor.state
+openDialog	page/selection/selection.page.jsx	/^            openDialog: false,$/;"	p	class:SelectionPage.constructor.state
+openDialog	page/users/users.page.jsx	/^            openDialog: false,$/;"	p	class:UsersPage.constructor.state
+openDialogStatistic	page/category/category.page.jsx	/^            openDialogStatistic: false$/;"	p	class:CategoryPage.constructor.state
+openTabValue	page/users/users.page.jsx	/^            openTabValue: 0,$/;"	p	class:UsersPage.constructor.state
+password	page/login/login.page.jsx	/^            password: '',$/;"	p	class:LoginPage.constructor.state
+question	page/question/question.reducer.js	/^    question: null,$/;"	p	class:initialState
+question	page/question/question.reducer.js	/^export default function question(state = initialState, action) {$/;"	f
+questionAnswers	page/question/question.page.jsx	/^            questionAnswers: [{$/;"	p	class:QuestionPage.constructor.state
+questionAnswers	page/question/question.reducer.js	/^    questionAnswers: [],$/;"	p	class:initialState
+questionDeleteAnswer	page/question/question.action.js	/^export const questionDeleteAnswer = () => ({$/;"	C
+questionId	page/question/question.page.jsx	/^            questionId: -1,$/;"	p	class:QuestionPage.constructor.state
+questionLoading	page/question/question.action.js	/^export const questionLoading = () => ({$/;"	C
+questionManualCheck	page/question/question.page.jsx	/^            questionManualCheck: false,$/;"	p	class:QuestionPage.constructor.state
+questionRedirectToCategory	page/question/question.action.js	/^export const questionRedirectToCategory = () => ({$/;"	C
+questionSetError	page/question/question.action.js	/^export const questionSetError = (err) => ({$/;"	C
+questionStatistic	components/statistic/statistic.reducer.js	/^    questionStatistic: null,$/;"	p	class:initialState
+questionStatistic	page/category/category.page.jsx	/^            questionStatistic: null,$/;"	p	class:CategoryPage.constructor.state
+questionSuccess	page/question/question.action.js	/^export const questionSuccess = (question) => ({$/;"	C
+questionText	page/question/question.page.jsx	/^            questionText: '', \/\/ описание вопроса.$/;"	p	class:QuestionPage.constructor.state
+questionTitle	page/question/question.page.jsx	/^            questionTitle: '',$/;"	p	class:QuestionPage.constructor.state
+questionType	page/question/question.page.jsx	/^            questionType: '',$/;"	p	class:QuestionPage.constructor.state
+questions	page/category/category.page.jsx	/^            questions: [],$/;"	p	class:CategoryPage.constructor.state
+questions	page/category/category.reducer.js	/^    questions: [],$/;"	p	class:initialState
+questionsSuccess	page/category/category.action.js	/^export const questionsSuccess = (questions) => ({$/;"	C
+redirectToAddSelection	page/selection-home/selection-home.page.jsx	/^            redirectToAddSelection: false$/;"	p	class:SelectionHomePage.constructor.state
+redirectToAddTest	page/selection/selection.page.jsx	/^            redirectToAddTest: false,$/;"	p	class:SelectionPage.constructor.state
+redirectToAddTest	page/test-home/test-home.page.jsx	/^            redirectToAddTest: false$/;"	p	class:TestHomePage.constructor.state
+redirectToCategory	page/question/question.page.jsx	/^            redirectToCategory: false,$/;"	p	class:QuestionPage.constructor.state
+redirectToCategory	page/question/question.reducer.js	/^    redirectToCategory: false$/;"	p	class:initialState
+redirectToCreateCategory	page/test/test.page.jsx	/^            redirectToCreateCategory: false,$/;"	p	class:TestPage.constructor.state
+redirectToHomeSelection	page/selection/selection.page.jsx	/^            redirectToHomeSelection: false,$/;"	p	class:SelectionPage.constructor.state
+redirectToHomeSelection	page/selection/selection.reducer.js	/^    redirectToHomeSelection: false,$/;"	p	class:initialState
+redirectToInquirer	page/test/test.page.jsx	/^            redirectToInquirer: false,$/;"	p	class:TestPage.constructor.state
+redirectToNewQuestion	page/category/category.page.jsx	/^            redirectToNewQuestion: false,$/;"	p	class:CategoryPage.constructor.state
+redirectToTest	page/category/category.page.jsx	/^            redirectToTest: false,$/;"	p	class:CategoryPage.constructor.state
+redirectToTest	page/category/category.reducer.js	/^    redirectToTest: false$/;"	p	class:initialState
+redirectToUserPage	page/selection/selection.page.jsx	/^            redirectToUserPage: false,$/;"	p	class:SelectionPage.constructor.state
+render	app.jsx	/^    render() {$/;"	m	class:App
+render	components/menu/menu.jsx	/^    render() {$/;"	m	class:MenuTree
+render	components/review-card/review-card.jsx	/^    render() {$/;"	m	class:ReviewCard
+render	page/category/category.page.jsx	/^    render() {$/;"	m	class:CategoryPage
+render	page/login/login.page.jsx	/^    render() {$/;"	m	class:LoginPage
+render	page/question/question.page.jsx	/^    render() {$/;"	m	class:QuestionPage
+render	page/result-home/result-home.page.jsx	/^    render() {$/;"	m	class:ResultHomePage
+render	page/result/result.page.jsx	/^    render() {$/;"	m	class:ResultPage
+render	page/review-home/review-home.page.jsx	/^    render() {$/;"	m	class:ReviewHomePage
+render	page/review/review.page.jsx	/^    render() {$/;"	m	class:ReviewPage
+render	page/selection-home/selection-home.page.jsx	/^    render() {$/;"	m	class:SelectionHomePage
+render	page/selection/selection.page.jsx	/^    render() {$/;"	m	class:SelectionPage
+render	page/test-home/test-home.page.jsx	/^    render() {$/;"	m	class:TestHomePage
+render	page/test/test.page.jsx	/^    render() {$/;"	m	class:TestPage
+render	page/users/users.page.jsx	/^    render() {$/;"	m	class:UsersPage
+result	page/result/result.page.jsx	/^            result: null$/;"	p	class:ResultPage.constructor.state
+result	page/result/result.reducer.js	/^    result: null,$/;"	p	class:initialState
+result	page/result/result.reducer.js	/^export default function result(state = initialState, action) {$/;"	f
+resultGetResultForSelection	page/result/result.action.js	/^const resultGetResultForSelection = data => ({$/;"	C
+resultLoadingResult	page/result/result.action.js	/^const resultLoadingResult = () => ({$/;"	C
+resultStopLoadingResult	page/result/result.action.js	/^const resultStopLoadingResult = () => ({$/;"	C
+review	page/review/review.reducer.js	/^export default function review(state = initialState, action) {$/;"	f
+reviewGetListSuccess	page/review/review.action.js	/^const reviewGetListSuccess = data => ({$/;"	C
+reviewHome	page/review-home/review-home.reducer.js	/^export default function reviewHome(state = initialState, action) {$/;"	f
+reviewLoading	page/review-home/review-home.action.js	/^const reviewLoading = () => ({$/;"	C
+reviewLoadingResult	page/review/review.action.js	/^const reviewLoadingResult = () => ({$/;"	C
+reviewStopLoading	page/review-home/review-home.action.js	/^const reviewStopLoading = () => ({$/;"	C
+reviewStopLoadingReview	page/review/review.action.js	/^const reviewStopLoadingReview = () => ({$/;"	C
+reviewSuccess	page/review-home/review-home.action.js	/^const reviewSuccess = data => ({$/;"	C
+root	index.html	/^    <div id="root"><\/div>$/;"	I
+routeNavigation	components/route/route.reducer.js	/^export default function routeNavigation(state = initialState, action) {$/;"	f
+saveAnswers	page/question/question.action.js	/^export function saveAnswers(questionId, answers) {$/;"	f
+saveCategory	page/category/category.action.js	/^export function saveCategory(categoryId, category) {$/;"	f
+saveQuestion	page/question/question.action.js	/^export function saveQuestion(questionId, question) {$/;"	f
+saveSelection	page/selection/selection.action.js	/^export function saveSelection(selection, selectionId) {$/;"	f
+selectedDateEnd	page/selection/selection.page.jsx	/^            selectedDateEnd: dateStop,$/;"	p	class:SelectionPage.constructor.state
+selectedDateStart	page/selection/selection.page.jsx	/^            selectedDateStart: dateStart,$/;"	p	class:SelectionPage.constructor.state
+selection	page/selection/selection.reducer.js	/^    selection: null,$/;"	p	class:initialState
+selection	page/selection/selection.reducer.js	/^export default function selection(state = initialState, action) {$/;"	f
+selectionClearTests	page/selection/selection.action.js	/^const selectionClearTests = () => ({$/;"	C
+selectionDescription	page/selection/selection.page.jsx	/^            selectionDescription: '',$/;"	p	class:SelectionPage.constructor.state
+selectionHome	page/selection-home/selection-home.reducer.js	/^    selectionHome: [],$/;"	p	class:initialState
+selectionHome	page/selection-home/selection-home.reducer.js	/^export default function selectionHome(state = initialState, action) {$/;"	f
+selectionHomeStopLoading	page/selection-home/selection-home.action.js	/^const selectionHomeStopLoading = () => ({$/;"	C
+selectionId	page/selection/selection.page.jsx	/^            selectionId: null,$/;"	p	class:SelectionPage.constructor.state
+selectionLoading	page/selection/selection.action.js	/^const selectionLoading = () => ({$/;"	C
+selectionLoadingHome	page/selection-home/selection-home.action.js	/^const selectionLoadingHome = () => ({$/;"	C
+selectionRedirectToHome	page/selection/selection.action.js	/^const selectionRedirectToHome = () => ({$/;"	C
+selectionSetAllTestsSuccess	page/selection/selection.action.js	/^const selectionSetAllTestsSuccess = (tests) => ({$/;"	C
+selectionSetError	page/selection/selection.action.js	/^const selectionSetError = (err) => ({$/;"	C
+selectionSetErrorHome	page/selection-home/selection-home.action.js	/^const selectionSetErrorHome = (err) => ({$/;"	C
+selectionSetMenuDataSuccess	page/selection/selection.action.js	/^const selectionSetMenuDataSuccess = (menuData) => ({$/;"	C
+selectionSetTestsSuccess	page/selection/selection.action.js	/^const selectionSetTestsSuccess = (tests) => ({$/;"	C
+selectionStatus	page/selection/selection.page.jsx	/^            selectionStatus: '',$/;"	p	class:SelectionPage.constructor.state
+selectionStopLoading	page/selection/selection.action.js	/^const selectionStopLoading = () => ({$/;"	C
+selectionSuccess	page/selection/selection.action.js	/^export const selectionSuccess = (selection) => ({$/;"	C
+selectionSuccessHome	page/selection-home/selection-home.action.js	/^export const selectionSuccessHome = (selections) => ({$/;"	C
+selectionTitle	page/selection/selection.page.jsx	/^            selectionTitle: '',$/;"	p	class:SelectionPage.constructor.state
+setErrorSelection	page/selection/selection.action.js	/^const setErrorSelection = (err) => ({$/;"	C
+setScoreForReview	page/review/review.action.js	/^export function setScoreForReview(userQuestionId, score) {$/;"	f
+setTestExisting	page/selection/selection.action.js	/^export function setTestExisting(selectionId, testId) {$/;"	f
+showFullQuestionText	components/review-card/review-card.jsx	/^            showFullQuestionText: props.questionText.length < answerShowLength$/;"	p	class:ReviewCard.constructor.state
+state	components/menu/menu.jsx	/^        this.state = {$/;"	c	class:MenuTree.constructor
+state	components/review-card/review-card.jsx	/^        this.state = {$/;"	c	class:ReviewCard.constructor
+state	page/category/category.page.jsx	/^        this.state = {$/;"	c	class:CategoryPage.constructor
+state	page/login/login.page.jsx	/^        this.state = {$/;"	c	class:LoginPage.constructor
+state	page/question/question.page.jsx	/^        this.state = {$/;"	c	class:QuestionPage.constructor
+state	page/result/result.page.jsx	/^        this.state = {$/;"	c	class:ResultPage.constructor
+state	page/review-home/review-home.page.jsx	/^        this.state = {$/;"	c	class:ReviewHomePage.constructor
+state	page/review/review.page.jsx	/^        this.state = {$/;"	c	class:ReviewPage.constructor
+state	page/selection-home/selection-home.page.jsx	/^        this.state = {$/;"	c	class:SelectionHomePage.constructor
+state	page/selection/selection.page.jsx	/^        this.state = {$/;"	c	class:SelectionPage.constructor
+state	page/test-home/test-home.page.jsx	/^        this.state = {$/;"	c	class:TestHomePage.constructor
+state	page/test/test.page.jsx	/^        this.state = {$/;"	c	class:TestPage.constructor
+state	page/users/users.page.jsx	/^        this.state = {$/;"	c	class:UsersPage.constructor
+statistic	components/statistic/statistic.reducer.js	/^export default function statistic(state = initialState, action) {$/;"	f
+stopLoading	page/category/category.action.js	/^export const stopLoading = () => ({$/;"	C
+stopLoading	page/question/question.action.js	/^export const stopLoading = () => ({$/;"	C
+store	store.js	/^const store = createStore($/;"	C
+tab	page/question/question.page.jsx	/^            tab: 'write',$/;"	p	class:QuestionPage.constructor.state
+tab	page/selection/selection.page.jsx	/^            tab: 'write',$/;"	p	class:SelectionPage.constructor.state
+tab	page/test/test.page.jsx	/^            tab: 'write'$/;"	p	class:TestPage.constructor.state
+test	page/test/test.reducer.js	/^    test: null,$/;"	p	class:initialState
+test	page/test/test.reducer.js	/^export default function test(state = initialState, action) {$/;"	f
+testClearCategoryList	page/test/test.action.js	/^export const testClearCategoryList = () => ({$/;"	C
+testDescription	page/test/test.page.jsx	/^            testDescription: '',$/;"	p	class:TestPage.constructor.state
+testForSelection	page/selection/selection.page.jsx	/^            testForSelection: [],$/;"	p	class:SelectionPage.constructor.state
+testForSelection	page/selection/selection.reducer.js	/^    testForSelection: [],$/;"	p	class:initialState
+testHome	page/test-home/test-home.reducer.js	/^export default function testHome(state = initialState, action) {$/;"	f
+testHomeStopLoading	page/test-home/test-home.action.js	/^export const testHomeStopLoading = () => ({$/;"	C
+testId	page/test/test.page.jsx	/^            testId: -1,$/;"	p	class:TestPage.constructor.state
+testLoading	page/test/test.action.js	/^export const testLoading = () => ({$/;"	C
+testLoadingHome	page/test-home/test-home.action.js	/^const testLoadingHome = () => ({$/;"	C
+testSetError	page/test/test.action.js	/^export const testSetError = (err) => ({$/;"	C
+testStopLoading	page/test/test.action.js	/^export const testStopLoading = () => ({$/;"	C
+testSuccess	page/test/test.action.js	/^export const testSuccess = (test) => ({$/;"	C
+testSuccessHome	page/test-home/test-home.action.js	/^export const testSuccessHome = (test) => ({$/;"	C
+testTitle	page/test/test.page.jsx	/^            testTitle: '',$/;"	p	class:TestPage.constructor.state
+testsHome	page/test-home/test-home.reducer.js	/^    testsHome: [],$/;"	p	class:initialState
+timeLimit	page/test/test.page.jsx	/^            timeLimit: '',$/;"	p	class:TestPage.constructor.state
+type	page/question/question.page.jsx	/^            type: '',$/;"	p	class:QuestionPage.constructor.state
+userList	page/users/users.page.jsx	/^            userList: [],$/;"	p	class:UsersPage.constructor.state
+userList	page/users/users.reducer.js	/^    userList: [],$/;"	p	class:initialState
+userLoading	page/users/users.action.js	/^export const userLoading = () => ({$/;"	C
+userSetError	page/users/users.action.js	/^export const userSetError = (err) => ({$/;"	C
+userStopLoading	page/users/users.action.js	/^export const userStopLoading = () => ({$/;"	C
+userSuccess	page/users/users.action.js	/^export const userSuccess = (user) => ({$/;"	C
+username	page/users/users.page.jsx	/^            username: '',$/;"	p	class:UsersPage.constructor.state
+users	page/users/users.reducer.js	/^export default function users(state = initialState, action) {$/;"	f
+wrongEmail	page/login/login.page.jsx	/^            wrongEmail: false,$/;"	p	class:LoginPage.constructor.state
+wrongPassword	page/login/login.page.jsx	/^            wrongPassword: false$/;"	p	class:LoginPage.constructor.state
+yy	service/get-date.js	/^    let yy = date.getFullYear() % 100;$/;"	v

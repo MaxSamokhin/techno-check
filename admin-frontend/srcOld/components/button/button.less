@@ -1,0 +1,140 @@
+@import '../../assets/style/font';
+@import '../../assets/style/color';
+
+
+.button {
+    padding: 0 16px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    outline: none;
+    width: max-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:disabled {
+        background: @color-button-disabled !important;
+    }
+
+    &__text {
+        text-decoration: none;
+        white-space: nowrap;
+        color: inherit;
+
+        & ._delete {
+            color: black;
+        }
+    }
+
+    &._small {
+        height: 25px;
+        font-size: @size-x-small;
+    }
+
+    &._medium {
+        height: 32px;
+        font-size: @size-medium;
+    }
+
+    &._large {
+        height: 40px;
+        font-size: @size-x-large;
+    }
+
+    &._default {
+        background-color: @button-default;
+        color: @color-button-text;
+
+        &:hover {
+            background-color: @button-default-hover;
+        }
+    }
+
+    &._danger {
+        background-color: @button-danger;
+        color: @color-button-text;
+
+        &:hover {
+            background-color: @button-danger-hover;
+        }
+    }
+
+    &._success {
+        background-color: @button-success;
+        color: @color-button-text;
+
+        &:hover {
+            background-color: @button-success-hover;
+        }
+    }
+
+    &._delete {
+        background-color: transparent;
+        color: gray;
+        border-radius: 0;
+        padding: 0;
+        width: 20px;
+        margin: 0 5px;
+        font-size: @size-xx-large;    
+    }
+
+    &._expand {
+        background-color: @button-default;
+        width: 100%;
+        // border: solid;
+        // border-color: black;
+        // border-width: 1px;
+
+        &:hover {
+            background-color: @expand-button-hover;
+        }
+
+        > span {
+            // color: @expand-button-text;
+        }
+    }
+
+    &_disabled {
+        background-color: @expand-button-disabled;
+    }
+
+    &_active {
+        background-color: @expand-button-active;
+    }
+
+    &._link > span, &._link {
+        padding: 0;
+        border-radius: 0;
+        color: @color-button-link;
+        background-color: white;
+
+        &:hover {
+         color: @color-button-link-hover;
+        }
+    }
+
+}
+
+.button-delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    &__text {
+        font-size: @size-medium;
+        color: black;
+    }
+
+    &__buttons {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+}

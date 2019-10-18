@@ -1,0 +1,81 @@
+@import "../../assets/style/color";
+
+.card {
+    width: 300px;
+    padding: 10px;
+    background-color: @color-background-course;
+    margin: 5px 5px;
+    position: relative;
+    border-radius: 5px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    &__input {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__add-button {
+        margin-left: 10px;
+
+        & > .disabled-link {
+            pointer-events: none;
+            background: red;
+        }
+    }
+
+
+    // &__delete-button {
+    //     opacity: 0;
+    // }
+
+    // &:hover &__delete-button {
+    //     opacity: 1;
+    // }
+
+    &__question {
+        margin-bottom: 15px;
+
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    .card {
+        &__delete-button {
+            visibility: visible;
+        }
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .card {
+        width: 200px;
+
+        &__header {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__delete-button {
+            margin-top: 20px;
+        }
+    }
+}
+
